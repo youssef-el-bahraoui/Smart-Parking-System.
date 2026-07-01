@@ -54,7 +54,7 @@ The firmware manages a **2-slot parking facility** by processing binary digital 
 ---
 
 
-<img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/d446b033-695f-4c36-9db4-efb39d2cdca1" />
+
 
 
 
@@ -69,7 +69,7 @@ To verify the control firmware, the system was thoroughly simulated and validate
 
 | Scenario | Logic Inputs <br> `(GATE / SLOT_1 / SLOT_2)` | LCD Display Status | Barrier Status (Servo) | Simulation Preview |
 | :--- | :---: | :--- | :---: | :---: |
-| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="https://github.com/user-attachments/assets/24517326-160b-4bc8-9e43-8215e3b5299" width="220"> |
+| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="https://github.com/user-attachments/assets/dd87d640-a77c-49e3-81e0-3d85b2ed3091" width="220"> |
 | **2. Active Entry:** <br> *Both Slots Free* | `1 / 0 / 0` | "Available:<br>Slot 1 & Slot 2" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/d446b033-695f-4c36-9db4-efb39d2cdca1" width="220"> |
 | **3. Active Entry:** <br> *Slot 1 Free / Slot 2 Full* | `1 / 0 / 1` | "Available:<br>Slot 1" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_SLOT1.png" width="220"> |
 | **4. Active Entry:** <br> *Slot 1 Full / Slot 2 Free* | `1 / 1 / 0` | "Available:<br>Slot 2" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_SLOT2.png" width="220"> |
