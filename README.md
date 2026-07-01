@@ -55,14 +55,17 @@ The firmware manages a **2-slot parking facility** by processing binary digital 
 
 ## 🔄 System States & Logic Verification
 
-To verify the robust control firmware, the system was thoroughly tested across all possible logical states using Proteus simulation. Below is the state matrix showcasing how the LCD and Servo motor react to different sensor inputs:
+To verify the control firmware, the system was thoroughly simulated and validated across all 5 core operational scenarios using Proteus. The matrix below demonstrates the exact truth table of the system inputs, the resulting LCD feedback, and the servo barrier angles:
 
-| Scenario | Logic Inputs (Gate / Slot 1 / Slot 2) | LCD Display Status | Barrier Status (Servo) | Simulation Preview |
-| :--- | :--- | :--- | :--- | :--- |
-| **1. System Idle** | `0 / 1 / 1` | "PARK CAR HERE" | Closed (+90°) | <img src="Screenshot (65).png" width="250"> |
-| **2. Both Slots Free** | `1 / 0 / 0` | "Available: Slot 1 & Slot 2" | Open (-4.9°) | <img src="Screenshot (68).png" width="250"> |
-| **3. Partial Occupancy** | `1 / 0 / 1` | "Available: Slot 1" | Open (0.0°) | <img src="Screenshot (67).png" width="250"> |
-| **4. Parking Full** | `1 / 1 / 1` | "Full Parking" | Locked / Closed (0.0°) | <img src="Screenshot (66).png" width="250"> |
+| Scenario | Logic Inputs <br> `(GATE / SLOT_1 / SLOT_2)` | LCD Display Status | Barrier Status (Servo) | Simulation Preview |
+| :--- | :---: | :--- | :---: | :---: |
+| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="YOUR_IMAGE_ID_FOR_IDLE.png" width="220"> |
+| **2. Active Entry:** <br> *Both Slots Free* | `1 / 0 / 0` | "Available:<br>Slot 1 & Slot 2" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_BOTH_FREE.png" width="220"> |
+| **3. Active Entry:** <br> *Slot 1 Free / Slot 2 Full* | `1 / 0 / 1` | "Available:<br>Slot 1" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_SLOT1.png" width="220"> |
+| **4. Active Entry:** <br> *Slot 1 Full / Slot 2 Free* | `1 / 1 / 0` | "Available:<br>Slot 2" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_SLOT2.png" width="220"> |
+| **5. Parking Full** <br> *(Entry Denied / Locked)* | `1 / 1 / 1` | "Full Parking" | Locked / Closed (-3.95°) | <img src="YOUR_IMAGE_ID_FOR_FULL.png" width="220"> |
+
+---
 
 ---
 
