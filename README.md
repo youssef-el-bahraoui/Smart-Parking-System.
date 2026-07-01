@@ -61,7 +61,7 @@ To verify the control firmware, the system was thoroughly simulated and validate
 
 | Scenario | Logic Inputs <br> `(GATE / SLOT_1 / SLOT_2)` | LCD Display Status | Barrier Status (Servo) | Simulation Preview |
 | :--- | :---: | :--- | :---: | :---: |
-| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="https://github.com/user-attachments/assets/dd87d640-a77c-49e3-81e0-3d85b2ed3091" width="220"><br><br><img src="https://github.com/user-attachments/assets/8af40018-6879-4cbf-807a-1ffc2a61ed94" width="220"> |
+| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="https://github.com/user-attachments/assets/dd87d640-a77c-49e3-81e0-3d85b2ed3091" width="120"><br><br><img src="https://github.com/user-attachments/assets/8af40018-6879-4cbf-807a-1ffc2a61ed94" width="120"> |
 | **2. Active Entry:** <br> *Both Slots Free* | `1 / 0 / 0` | "Available:<br>Slot 1 & Slot 2" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/d446b033-695f-4c36-9db4-efb39d2cdca1" width="220"> |
 | **3. Active Entry:** <br> *Slot 1 Free / Slot 2 Full* | `1 / 0 / 1` | "Available:<br>Slot 1" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/87e5abe1-e6ca-49e4-8b6e-9544cfa0876c" width="220"> |
 | **4. Active Entry:** <br> *Slot 1 Full / Slot 2 Free* | `1 / 1 / 0` | "Available:<br>Slot 2" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/3354b4e6-920d-40e5-96a1-0f0676f4613c" width="220"> |
