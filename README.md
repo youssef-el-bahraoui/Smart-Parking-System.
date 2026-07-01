@@ -1,4 +1,3 @@
-
 # 🚗 Automated Smart Parking System
 
 An IoT-based automated hardware and software solution designed to optimize parking space management, reduce traffic congestion, and improve urban mobility.
@@ -51,6 +50,8 @@ The firmware manages a **2-slot parking facility** by processing binary digital 
    * The **Servo Motor barrier** opens to clear the vehicle's path.
    * The space counter increases, and the **LCD display** updates immediately.
   
+---
+
 ---
 
 
