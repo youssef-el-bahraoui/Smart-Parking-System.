@@ -66,7 +66,7 @@ To verify the control firmware, the system was thoroughly simulated and validate
 | **2. Active Entry:** <br> *Both Slots Free* | `1 / 0 / 0` | "Available:<br>Slot 1 & Slot 2" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/d446b033-695f-4c36-9db4-efb39d2cdca1" width="220"> |
 | **3. Active Entry:** <br> *Slot 1 Free / Slot 2 Full* | `1 / 0 / 1` | "Available:<br>Slot 1" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/87e5abe1-e6ca-49e4-8b6e-9544cfa0876c" width="220"> |
 | **4. Active Entry:** <br> *Slot 1 Full / Slot 2 Free* | `1 / 1 / 0` | "Available:<br>Slot 2" | Open (-90.0°) | <img src="https://github.com/user-attachments/assets/3354b4e6-920d-40e5-96a1-0f0676f4613c" width="220"> |
-| **5. Parking Full** <br> *(Entry Denied / Locked)* | `1 / 1 / 1` | "Full Parking" | Locked / Closed (-3.95°) | <img src="https://github.com/user-attachments/assets/596994a6-1e24-466b-8489-4614cbde4925" width="220"> |
+| **5. Parking Full** <br> *(Entry Denied / Locked)* | `1 / 1 / 1` | "Full Parking" | Locked / Closed (-4.95°) | <img src="https://github.com/user-attachments/assets/596994a6-1e24-466b-8489-4614cbde4925" width="220"> |
 
 ---
 
