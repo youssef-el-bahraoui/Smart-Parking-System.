@@ -53,13 +53,21 @@ The firmware manages a **2-slot parking facility** by processing binary digital 
 ---
 
 
+
+
+
+
+
+
+
+
 ## 🔄 System States & Logic Verification
 
 To verify the control firmware, the system was thoroughly simulated and validated across all 5 core operational scenarios using Proteus. The matrix below demonstrates the exact truth table of the system inputs, the resulting LCD feedback, and the servo barrier angles:
 
 | Scenario | Logic Inputs <br> `(GATE / SLOT_1 / SLOT_2)` | LCD Display Status | Barrier Status (Servo) | Simulation Preview |
 | :--- | :---: | :--- | :---: | :---: |
-| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="YOUR_IMAGE_ID_FOR_IDLE.png" width="220"> |
+| **1. System Idle** <br> *(No car at the entry gate)* | `0 / X / X` <br> *(0/0/0 or 0/1/1)* | "PARK CAR HERE" | Closed (-4.96°) | <img src="https://github.com/user-attachments/assets/24517326-160b-4bc8-9e43-8215e3b5299" width="220"> |
 | **2. Active Entry:** <br> *Both Slots Free* | `1 / 0 / 0` | "Available:<br>Slot 1 & Slot 2" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_BOTH_FREE.png" width="220"> |
 | **3. Active Entry:** <br> *Slot 1 Free / Slot 2 Full* | `1 / 0 / 1` | "Available:<br>Slot 1" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_SLOT1.png" width="220"> |
 | **4. Active Entry:** <br> *Slot 1 Full / Slot 2 Free* | `1 / 1 / 0` | "Available:<br>Slot 2" | Open (-90.0°) | <img src="YOUR_IMAGE_ID_FOR_SLOT2.png" width="220"> |
