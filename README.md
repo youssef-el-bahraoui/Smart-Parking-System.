@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/8584ec80-d01f-48bb-9492-c2b421fce4f3" />
+
 # 🚗 Automated Smart Parking System
 
 An IoT-based automated hardware and software solution designed to optimize parking space management, reduce traffic congestion, and improve urban mobility.
