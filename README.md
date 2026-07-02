@@ -85,8 +85,4 @@ The repository includes:
 3. Install the required `LiquidCrystal` and `servo_motor` library.
 4. Upload the code to your Arduino board and connect the hardware according to the schematics.
 <br><br><br>
-<div align="center">
-
-![Profile Views](https://komarev.com/ghpvc/YB-Bank/Smart-Parking-System./tree/main&style=flat-square&color=0078d4&label=PROFILE+VIEWS)]
-
-</div>
+![Views](https://hits.seeyouforme.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYB-Bank%2FSmart-Parking-System)
