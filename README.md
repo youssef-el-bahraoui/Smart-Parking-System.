@@ -84,3 +84,9 @@ The repository includes:
 2. Open `Smart_Parking.ino` in the Arduino IDE.
 3. Install the required `LiquidCrystal` and `servo_motor` library.
 4. Upload the code to your Arduino board and connect the hardware according to the schematics.
+<br><br><br>
+<div align="center">
+
+![Profile Views](https://komarev.com/ghpvc/?username=YB-Bank&style=flat-square&color=0078d4&label=PROFILE+VIEWS)]
+
+</div>
