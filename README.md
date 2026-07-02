@@ -87,6 +87,10 @@ The repository includes:
 <br><br><br>
 <div align="center">
 
+![Repository Views](https://komarev.com/ghpvc/?username=YB-Bank&repo=Smart-Parking-System.&style=flat-square&color=0078d4&label=VIEWS)
+
+</div>
+
 ![Views](https://hits.seeyouforme.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYB-Bank%2FSmart-Parking-System)
 
 </div>
