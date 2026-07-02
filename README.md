@@ -87,6 +87,6 @@ The repository includes:
 <br><br><br>
 <div align="center">
 
-![Profile Views](https://komarev.com/ghpvc/?username=YB-Bank&style=flat-square&color=0078d4&label=PROFILE+VIEWS)]
+![Profile Views](https://komarev.com/ghpvc/YB-Bank/Smart-Parking-System./tree/main&style=flat-square&color=0078d4&label=PROFILE+VIEWS)]
 
 </div>
